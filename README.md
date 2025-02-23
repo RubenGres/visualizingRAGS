@@ -17,5 +17,6 @@ Then call app.py using the pdf path as a command line argument. Optionally, spec
 
 For example on the provided document:
 ```
+pip install -r requirements.txt
 python app.py documents/IPCC_AR6_SYR_SPM.pdf --chunk-size 1000
 ```
